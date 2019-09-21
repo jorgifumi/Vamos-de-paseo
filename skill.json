@@ -1,0 +1,55 @@
+{
+  "manifest": {
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:970344134086:function:8b802fb5-5b6e-4a93-b351-d3fc9b2a4bff:Release_0"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    },
+    "publishingInformation": {
+      "locales": {
+        "es-ES": {
+          "name": "Vamos de paseo (Juegos de vocabulario)",
+          "smallIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/d207/6a2670cab37249fbb71399c95b607a8f/APP_ICON?versionId=ZYWjPGuqVRIi4wFOnjdeFb8RVSMCscBH&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190921T155350Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190921%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=82fe9b45068ff19b26dbef1193d9be2fdd1519d3e612da2b7abb5ddd2410504e",
+          "largeIconUri": "https://s3.amazonaws.com/CAPS-SSE/echo_developer/8e07/cb7108142f87440a8c1fb2bb2554a026/APP_ICON_LARGE?versionId=wW5S4MD7lb2H9qMnbMuDgUI_WJbP7nt.&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20190921T155350Z&X-Amz-SignedHeaders=host&X-Amz-Expires=86400&X-Amz-Credential=AKIAJFEYRBGIHK2BBYKA%2F20190921%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Signature=0eee63d9b6ce2fa783342557a16df182cb753615072626a72cb477c87e800246",
+          "summary": "Aprende vocabulario adivinando la palabra secreta",
+          "description": "Esta skills te propone un sencillo juego para mejorar tu vocabulario a través de diferentes temas. \n\nLa dinámica es sencilla, tienes que adivinar la palabra secreta. Para ello tendrás que ir diciendo que posible objetos que llevarías a un camping, siendo la primera letra del objeto la que pertenezca a la palabra secreta.\n\nLogo: “Designed by Freepik from www.flaticon.com”\n\n'Voy de camping y voy a llevar ... un gorro' \n- > Perfecto, llévatelo.\n\nEsto supondrá que la palabra secreta contiene una 'g'.",
+          "examplePhrases": [
+            "Vamos de camping y tenemos que adivinar la palabra secreta",
+            "Vamos de camping y voy a llevar una tetera",
+            "Vamos de camping y voy a llevar un sombrero"
+          ],
+          "keywords": [
+            "juego",
+            "vocabulario",
+            "camping",
+            "entretenimiento",
+            "casual",
+            "aprendizaje",
+            "adivinar",
+            "adivinanzas",
+            "reto",
+            "palabras",
+            "lenguaje"
+          ]
+        }
+      },
+      "isAvailableWorldwide": false,
+      "testingInstructions": "Para testear la aplicación es necesario, ir introduciendo palabras cuya primera letra coincida en orden con la palabra secreta. La palabra secreta de obtiene de un pull de palabras contenidas en la skills.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": [
+        "ES"
+      ]
+    }
+  }
+}

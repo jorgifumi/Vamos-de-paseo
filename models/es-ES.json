@@ -1,0 +1,199 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "vamos de paseo",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "StartGameIntent",
+          "slots": [
+            {
+              "name": "GameValue",
+              "type": "GameType"
+            }
+          ],
+          "samples": [
+            "empezar una partida nueva",
+            "empezar una nueva",
+            "lanzar {GameValue}",
+            "abrir {GameValue}",
+            "arrancar {GameValue}",
+            "iniciar {GameValue}",
+            "comenzar {GameValue}",
+            "empezar {GameValue}",
+            "lanzar",
+            "abrir",
+            "arrancar",
+            "iniciar",
+            "comenzar",
+            "empezar"
+          ]
+        },
+        {
+          "name": "GameStepIntent",
+          "slots": [
+            {
+              "name": "StepValue",
+              "type": "AMAZON.SearchQuery",
+              "samples": [
+                "una {StepValue}",
+                "un {StepValue}"
+              ]
+            }
+          ],
+          "samples": [
+            "voy a ir camping y voy a llevar {StepValue}",
+            "voy a ir al camping y llevo {StepValue}",
+            "estoy en el camping y llevo  {StepValue}",
+            "voy al camping y llevo  {StepValue}",
+            "voy de camping y llevo {StepValue}",
+            "voy camping y voy a llevar  {StepValue}",
+            "voy al camping y voy a llevar {StepValue}",
+            "voy de camping y voy a llevar {StepValue}",
+            "voy a ir de camping y voy a llevar {StepValue}",
+            "voy a ir de camping y voy a llevar una {StepValue}",
+            "voy a ir de camping y voy a llevar un {StepValue}",
+            "voy a ir camping y voy a llevar un {StepValue}",
+            "voy a ir al camping y llevo un {StepValue}",
+            "estoy en el camping y llevo un  {StepValue}",
+            "voy al camping y llevo un {StepValue}",
+            "voy de camping y llevo un {StepValue}",
+            "voy camping y voy a llevar un {StepValue}",
+            "voy al camping y voy a llevar un {StepValue}",
+            "voy de camping y voy a llevar un {StepValue}",
+            "voy a ir camping y voy a llevar una {StepValue}",
+            "voy a ir al camping y llevo una {StepValue}",
+            "estoy en el camping y llevo una  {StepValue}",
+            "voy al camping y llevo una {StepValue}",
+            "voy de camping y llevo una {StepValue} ",
+            "voy camping y voy a llevar una {StepValue}",
+            "voy al camping y voy a llevar una {StepValue}",
+            "voy de camping y voy a llevar una {StepValue}"
+          ]
+        },
+        {
+          "name": "GameEndIntent",
+          "slots": [
+            {
+              "name": "EndGameValue",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "puede ser la respuesta  {EndGameValue}",
+            "creo que la respuesta es {EndGameValue}",
+            "la solucion es  {EndGameValue}",
+            "la respuesta es {EndGameValue}"
+          ]
+        },
+        {
+          "name": "AMAZON.PauseIntent",
+          "samples": []
+        },
+        {
+          "name": "GameContinueIntent",
+          "slots": [],
+          "samples": [
+            "elijo continuar",
+            "continuarla",
+            "reanudar con el juego",
+            "reanudar juego",
+            "reanudar",
+            "proseguir con el juego",
+            "proseguir juego",
+            "proseguir",
+            "seguir el juego",
+            "continuar con el juego",
+            "seguir con el juego",
+            "continuar juego",
+            "seguir",
+            "continuar"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "CAMPING",
+              "name": {
+                "value": "camping",
+                "synonyms": [
+                  "campings",
+                  "camping"
+                ]
+              }
+            }
+          ],
+          "name": "GameType"
+        },
+        {
+          "values": [
+            {
+              "id": "LLEVAR",
+              "name": {
+                "value": "llevar",
+                "synonyms": [
+                  "llevó",
+                  "lleve",
+                  "llevé",
+                  "llevo",
+                  "llevar"
+                ]
+              }
+            }
+          ],
+          "name": "VerbType"
+        }
+      ]
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "GameStepIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "StepValue",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.3112635440.174417164738"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.3112635440.174417164738",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "y que vas a llevar"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "17"
+}

@@ -1,0 +1,37 @@
+{
+    "topics": [
+        {
+            "name": "films",
+            "words": [
+                "Mulan",
+                "Gladiator",
+                "Matrix",
+                "Interstellar",
+                "Campeones",
+                "Aladdin",
+                "Anna",
+                "Superman",
+                "GhostLand",
+                "Litus",
+                "Mascotas"
+            ]
+        },
+        {
+            "name": "sports",
+            "words": [
+                "Futbol",
+                "Pelota",
+                "Baloncesto",
+                "Balonmano",
+                "Karate",
+                "PingPong",
+                "Esgrima",
+                "Sumo",
+                "Judo",
+                "Rollerderby",
+                "Natacion",
+                "Golf"
+            ]
+        }
+    ]
+}

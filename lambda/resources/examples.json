@@ -1,0 +1,103 @@
+{
+    "a": [
+        "Arbol",
+        "Arco"
+    ],
+    "b": [
+        "Bicicleta",
+        "Ballesta"
+    ],
+    "c": [
+        "Cuchillo",
+        "Calabaza",
+        "Cuchara"
+    ],
+    "d": [
+        "Diamante",
+        "Dado"
+    ],
+    "e": [
+        "Estaca",
+        "Escoba"
+    ],
+    "f": [
+        "Farola",
+        "Frasco"
+    ],
+    "g": [
+        "Gorro"
+    ],
+    "h": [
+        "Hierro",
+        "Hielo"
+    ],
+    "i": [
+        "Imán"
+    ],
+    "j": [
+        "Jabón"
+    ],
+    "k": [
+        "Koala"
+    ],
+    "l": [
+        "Limon",
+        "Lapicero"
+    ],
+    "m": [
+        "Machete",
+        "Moqueta",
+        "Mapa"
+    ],
+    "n": [
+        "Naranja"
+    ],
+    "ñ": [
+        "Ñoquis"
+    ],
+    "o": [
+        "Oro"
+    ],
+    "p": [
+        "Punzon",
+        "Pan"
+    ],
+    "q": [
+        "Queso"
+    ],
+    "r": [
+        "Radio",
+        "Ron",
+        "Roscón"
+    ],
+    "s": [
+        "Sirena",
+        "Sopa",
+        "Sal"
+    ],
+    "t": [
+        "Toldo",
+        "Torrija"
+    ],
+    "u": [
+        "Uniforme",
+        "Unicornio"
+    ],
+    "v": [
+        "Vino",
+        "Vodka",
+        "Ventilador"
+    ],
+    "w": [
+        "Whisky"
+    ],
+    "x": [
+        "Xilofono"
+    ],
+    "y": [
+        "Yoyo"
+    ],
+    "z": [
+        "Zapatos"
+    ]
+}
